@@ -27,3 +27,4 @@ fun FormDataDiri(modifier: Modifier){
     var jenis by remember {mutableStateOf("")}
 
     Column(modifier = Modifier.padding(top = 50.dp),
+        verticalArrangement = Arrangement.Top,
